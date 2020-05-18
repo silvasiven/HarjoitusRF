@@ -12,9 +12,9 @@ Kokeilu tulosta voisi kuvata myös regressiotestaukseksi, mutta projektin tarkoi
 
 ## Työn aloitus:
 Robot Frameworkin asennuksessa vaaditaan:
-+Python,
-+pip asennusohjelma sekä
-+valitun selaimesta riippuen joko geckodriver.exe(Firefoxin webdriver) tai chromedriver (Chrome webriver).
++ Python,
++ pip asennusohjelma sekä
++ valitun selaimesta riippuen joko geckodriver.exe(Firefoxin webdriver) tai chromedriver (Chrome webriver).
 
 Tämän jälkeen voit lisätä Robot Frameworkin:
 ```python
