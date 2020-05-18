@@ -12,20 +12,20 @@ Kokeilu tulosta voisi kuvata myös regressiotestaukseksi, mutta projektin tarkoi
 
 ## Työn aloitus:
 Robot Frameworkin asennuksessa vaaditaan:
--Python,
--pip asennusohjelma sekä
--valitun selaimesta riippuen joko geckodriver.exe(Firefoxin webdriver) tai chromedriver (Chrome webriver).
+⋅⋅*Python,
+⋅⋅*pip asennusohjelma sekä
+⋅⋅*valitun selaimesta riippuen joko geckodriver.exe(Firefoxin webdriver) tai chromedriver (Chrome webriver).
 
 Tämän jälkeen voit lisätä Robot Frameworkin:
-'''python
+```python
 pip install robotframework
-'''
+```
 sekä selainpohjaisten sovelluksien automatiosoinnissa käytettävä SeleniumLibrary
-'''python
+```python
 pip install robotframework-seleniumlibrary
-'''
+```
 
 Tämän jälkeen voit ajaa testin komentorivillä robot komennolla. Esimerkiksi tässä tapauksessa
-'''python
+```python
 robot sivusto.robot
-'''
+```
