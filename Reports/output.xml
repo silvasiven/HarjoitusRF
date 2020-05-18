@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.1 on win32)" generated="20200428 15:22:22.049">
+<suite id="s1" name="Sivusto" source="C:\Users\silva\PycharmProjects\TekHarjoitus\Harjoitus\sivusto.robot">
+<test id="s1-t1" name="Test">
+<kw name="Siirtyminen sivustolle">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.haaga-helia.fi/fi/etusivu?userLang=fi</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200428 15:22:22.259" level="INFO">Opening browser 'chrome' to base url 'https://www.haaga-helia.fi/fi/etusivu?userLang=fi'.</msg>
+<status status="PASS" starttime="20200428 15:22:22.259" endtime="20200428 15:22:31.360"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//a[contains(@class,'has-children')][contains(text(),'Koulutus')]</arg>
+</arguments>
+<status status="PASS" starttime="20200428 15:22:31.360" endtime="20200428 15:22:31.558"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//a[contains(@class,'has-children')][contains(text(),'Koulutus')]</arg>
+</arguments>
+<msg timestamp="20200428 15:22:31.559" level="INFO">Clicking element '//a[contains(@class,'has-children')][contains(text(),'Koulutus')]'.</msg>
+<status status="PASS" starttime="20200428 15:22:31.558" endtime="20200428 15:22:31.689"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//div[@id='submenu-0']//a[contains(text(),'Opinto-opas')]</arg>
+</arguments>
+<status status="PASS" starttime="20200428 15:22:31.690" endtime="20200428 15:22:31.746"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@id='submenu-0']//a[contains(text(),'Opinto-opas')]</arg>
+</arguments>
+<msg timestamp="20200428 15:22:31.747" level="INFO">Clicking element '//div[@id='submenu-0']//a[contains(text(),'Opinto-opas')]'.</msg>
+<status status="PASS" starttime="20200428 15:22:31.746" endtime="20200428 15:22:33.081"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//div[@class='link-wrapper']//a[contains(@class,'link textlink')][contains(text(),'Koulutusohjelmat')]</arg>
+</arguments>
+<status status="PASS" starttime="20200428 15:22:33.081" endtime="20200428 15:22:33.119"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@class='link-wrapper']//a[contains(@class,'link textlink')][contains(text(),'Koulutusohjelmat')]</arg>
+</arguments>
+<msg timestamp="20200428 15:22:33.119" level="INFO">Clicking element '//div[@class='link-wrapper']//a[contains(@class,'link textlink')][contains(text(),'Koulutusohjelmat')]'.</msg>
+<status status="PASS" starttime="20200428 15:22:33.119" endtime="20200428 15:22:34.165"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//div[@id='sidemenu-block']//li[18]//a[1]</arg>
+</arguments>
+<status status="PASS" starttime="20200428 15:22:34.166" endtime="20200428 15:22:34.201"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@id='sidemenu-block']//li[18]//a[1]</arg>
+</arguments>
+<msg timestamp="20200428 15:22:34.202" level="INFO">Clicking element '//div[@id='sidemenu-block']//li[18]//a[1]'.</msg>
+<status status="PASS" starttime="20200428 15:22:34.201" endtime="20200428 15:22:35.241"></status>
+</kw>
+<status status="PASS" starttime="20200428 15:22:22.259" endtime="20200428 15:22:35.241"></status>
+</kw>
+<kw name="Lopeta">
+<kw name="Delete All Cookies" library="SeleniumLibrary">
+<doc>Deletes all cookies.</doc>
+<status status="PASS" starttime="20200428 15:22:35.242" endtime="20200428 15:22:35.401"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200428 15:22:35.402" endtime="20200428 15:22:37.632"></status>
+</kw>
+<status status="PASS" starttime="20200428 15:22:35.242" endtime="20200428 15:22:37.633"></status>
+</kw>
+<status status="PASS" starttime="20200428 15:22:22.259" endtime="20200428 15:22:37.634" critical="yes"></status>
+</test>
+<doc>Haku koulun sivuilta</doc>
+<status status="PASS" starttime="20200428 15:22:22.051" endtime="20200428 15:22:37.638"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Sivusto">Sivusto</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

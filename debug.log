@@ -1,0 +1,32 @@
+[0428/150556.076:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0428/150556.078:ERROR:exception_snapshot_win.cc(98)] thread ID 29940 not found in process
+[0428/150556.143:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0428/150556.143:ERROR:exception_snapshot_win.cc(98)] thread ID 11740 not found in process
+[0428/150556.223:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0428/150556.225:ERROR:exception_snapshot_win.cc(98)] thread ID 1792 not found in process
+[0428/150556.279:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0428/150556.279:ERROR:exception_snapshot_win.cc(98)] thread ID 17848 not found in process
+[0428/192648.710:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0428/192648.713:ERROR:exception_snapshot_win.cc(98)] thread ID 11496 not found in process
+[0428/192648.768:ERROR:process_reader_win.cc(151)] SuspendThread: Käyttö estetty. (0x5)
+[0428/192648.769:ERROR:process_reader_win.cc(151)] SuspendThread: Käyttö estetty. (0x5)
+[0428/192648.769:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0428/192648.769:ERROR:exception_snapshot_win.cc(98)] thread ID 17276 not found in process
+[0428/192648.817:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0428/192648.820:ERROR:exception_snapshot_win.cc(98)] thread ID 30984 not found in process
+[0428/192648.893:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0428/192648.893:ERROR:exception_snapshot_win.cc(98)] thread ID 22664 not found in process
+[0512/132514.931:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0512/132514.934:ERROR:exception_snapshot_win.cc(98)] thread ID 18548 not found in process
+[0512/132514.933:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0512/132514.934:ERROR:exception_snapshot_win.cc(98)] thread ID 12468 not found in process
+[0512/132515.053:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0512/132515.053:ERROR:exception_snapshot_win.cc(98)] thread ID 23400 not found in process
+[0512/132515.058:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0512/132515.058:ERROR:exception_snapshot_win.cc(98)] thread ID 31228 not found in process
+[0512/143315.509:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0512/143315.510:ERROR:exception_snapshot_win.cc(98)] thread ID 11172 not found in process
+[0512/143315.540:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0512/143315.540:ERROR:exception_snapshot_win.cc(98)] thread ID 30176 not found in process
+[0512/143315.718:ERROR:process_reader_win.cc(123)] NtOpenThread: {Käyttö estetty} Prosessi pyysi objektin käyttöä, mutta käyttöoikeuksia ei ole myönnetty. (0xc0000022)
+[0512/143315.718:ERROR:exception_snapshot_win.cc(98)] thread ID 17448 not found in process

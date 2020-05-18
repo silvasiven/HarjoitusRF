@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.1 on win32)" generated="20200512 14:06:13.430">
+<suite id="s1" name="Sivusto" source="C:\Users\silva\PycharmProjects\TekHarjoitus\Harjoitus\sivusto.robot">
+<test id="s1-t1" name="Haku sivulta">
+<kw name="Siirtyminen sivustolle">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.haaga-helia.fi/fi/etusivu?userLang=fi</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200512 14:06:13.684" level="INFO">Opening browser 'chrome' to base url 'https://www.haaga-helia.fi/fi/etusivu?userLang=fi'.</msg>
+<status status="PASS" starttime="20200512 14:06:13.684" endtime="20200512 14:06:23.244"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//a[contains(@class,'has-children')][contains(text(),'Koulutus')]</arg>
+</arguments>
+<status status="PASS" starttime="20200512 14:06:23.244" endtime="20200512 14:06:23.303"></status>
+</kw>
+<status status="PASS" starttime="20200512 14:06:13.684" endtime="20200512 14:06:23.303"></status>
+</kw>
+<kw name="Siirry Kirjastopalveluihin">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//a[contains(@class,'has-children')][contains(text(),'Palvelut')]</arg>
+</arguments>
+<msg timestamp="20200512 14:06:23.304" level="INFO">Clicking element '//a[contains(@class,'has-children')][contains(text(),'Palvelut')]'.</msg>
+<status status="PASS" starttime="20200512 14:06:23.304" endtime="20200512 14:06:23.439"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//div[@id='submenu-1']//a[contains(text(),'Kirjasto- ja tietopalvelut')]</arg>
+</arguments>
+<status status="PASS" starttime="20200512 14:06:23.440" endtime="20200512 14:06:23.468"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@id='submenu-1']//a[contains(text(),'Kirjasto- ja tietopalvelut')]</arg>
+</arguments>
+<msg timestamp="20200512 14:06:23.468" level="INFO">Clicking element '//div[@id='submenu-1']//a[contains(text(),'Kirjasto- ja tietopalvelut')]'.</msg>
+<status status="PASS" starttime="20200512 14:06:23.468" endtime="20200512 14:06:26.082"></status>
+</kw>
+<status status="PASS" starttime="20200512 14:06:23.303" endtime="20200512 14:06:26.082"></status>
+</kw>
+<kw name="Etsi Hakusana">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//input[@name='lookfor']</arg>
+</arguments>
+<status status="PASS" starttime="20200512 14:06:26.084" endtime="20200512 14:06:26.157"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@name='lookfor']</arg>
+<arg>${kirja}</arg>
+</arguments>
+<msg timestamp="20200512 14:06:26.157" level="INFO">Typing text 'Robot Framework' into text field '//input[@name='lookfor']'.</msg>
+<status status="PASS" starttime="20200512 14:06:26.157" endtime="20200512 14:06:26.358"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//input[@class='btn btn-primary']</arg>
+</arguments>
+<status status="PASS" starttime="20200512 14:06:26.358" endtime="20200512 14:06:26.381"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@class='btn btn-primary']</arg>
+</arguments>
+<msg timestamp="20200512 14:06:26.381" level="INFO">Clicking element '//input[@class='btn btn-primary']'.</msg>
+<status status="PASS" starttime="20200512 14:06:26.381" endtime="20200512 14:06:32.444"></status>
+</kw>
+<status status="PASS" starttime="20200512 14:06:26.083" endtime="20200512 14:06:32.444"></status>
+</kw>
+<kw name="Valitse Opinnäytetyö">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//span[contains(text(),'Opinnäyte')]</arg>
+</arguments>
+<status status="PASS" starttime="20200512 14:06:32.446" endtime="20200512 14:06:32.724"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//span[contains(text(),'Opinnäyte')]</arg>
+</arguments>
+<msg timestamp="20200512 14:06:32.725" level="INFO">Clicking element '//span[contains(text(),'Opinnäyte')]'.</msg>
+<status status="PASS" starttime="20200512 14:06:32.724" endtime="20200512 14:06:35.980"></status>
+</kw>
+<status status="PASS" starttime="20200512 14:06:32.445" endtime="20200512 14:06:35.981"></status>
+</kw>
+<kw name="Valitse hakutulos">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//div[@id='result0']//div[@class='title-container']//a[1]</arg>
+<arg>timeout=10</arg>
+</arguments>
+<status status="PASS" starttime="20200512 14:06:35.983" endtime="20200512 14:06:36.026"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@id='result0']//div[@class='title-container']//a[1]</arg>
+</arguments>
+<msg timestamp="20200512 14:06:36.027" level="INFO">Clicking element '//div[@id='result0']//div[@class='title-container']//a[1]'.</msg>
+<status status="PASS" starttime="20200512 14:06:36.026" endtime="20200512 14:06:44.272"></status>
+</kw>
+<status status="PASS" starttime="20200512 14:06:35.982" endtime="20200512 14:06:44.273"></status>
+</kw>
+<kw name="Hae ja kopio viitetiedot">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//span[@class='hidden-xs'][contains(text(),'Viitetiedot')]</arg>
+</arguments>
+<status status="PASS" starttime="20200512 14:06:44.273" endtime="20200512 14:06:44.338"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//span[@class='hidden-xs'][contains(text(),'Viitetiedot')]</arg>
+</arguments>
+<msg timestamp="20200512 14:06:44.338" level="INFO">Clicking element '//span[@class='hidden-xs'][contains(text(),'Viitetiedot')]'.</msg>
+<status status="PASS" starttime="20200512 14:06:44.338" endtime="20200512 14:06:44.457"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//p[4]</arg>
+</arguments>
+<status status="PASS" starttime="20200512 14:06:44.457" endtime="20200512 14:06:47.432"></status>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of element identified by ``locator``.</doc>
+<arguments>
+<arg>//p[4]</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20200512 14:06:47.461" level="INFO">${text} = Leppälahti, J. &amp; ammattikorkeakoulu, H. 2018. Regressiotestauksen automatisointi Robot Frameworkilla. Haaga-Helia ammattikorkeakoulu.</msg>
+<status status="PASS" starttime="20200512 14:06:47.432" endtime="20200512 14:06:47.461"></status>
+</kw>
+<kw name="Create File" library="OperatingSystem">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>C:\Users\silva\PycharmProjects\TekHarjoitus\Harjoitus/kirja.txt</arg>
+<arg>${text}</arg>
+</arguments>
+<msg timestamp="20200512 14:06:47.463" level="INFO" html="yes">Created file '&lt;a href="file://C:\Users\silva\PycharmProjects\TekHarjoitus\Harjoitus\UserssilvaPycharmProjectsTekHarjoitusHarjoitus\kirja.txt"&gt;C:\Users\silva\PycharmProjects\TekHarjoitus\Harjoitus\UserssilvaPycharmProjectsTekHarjoitusHarjoitus\kirja.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20200512 14:06:47.461" endtime="20200512 14:06:47.463"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//button[@class='close']</arg>
+</arguments>
+<status status="PASS" starttime="20200512 14:06:47.463" endtime="20200512 14:06:47.500"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//button[@class='close']</arg>
+</arguments>
+<msg timestamp="20200512 14:06:47.500" level="INFO">Clicking element '//button[@class='close']'.</msg>
+<status status="PASS" starttime="20200512 14:06:47.500" endtime="20200512 14:06:47.558"></status>
+</kw>
+<status status="PASS" starttime="20200512 14:06:44.273" endtime="20200512 14:06:47.558"></status>
+</kw>
+<kw name="Hae oppari">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>//div[@class='recordURLs local-available-online-record']//div[@class='truncate-field truncate-done']//div[1]//a[1]</arg>
+</arguments>
+<status status="PASS" starttime="20200512 14:06:47.559" endtime="20200512 14:06:47.589"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200512 14:06:52.591" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200512 14:06:47.590" endtime="20200512 14:06:52.591"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@class='recordURLs local-available-online-record']//div[@class='truncate-field truncate-done']//div[1]//a[1]</arg>
+</arguments>
+<msg timestamp="20200512 14:06:52.591" level="INFO">Clicking element '//div[@class='recordURLs local-available-online-record']//div[@class='truncate-field truncate-done']//div[1]//a[1]'.</msg>
+<status status="PASS" starttime="20200512 14:06:52.591" endtime="20200512 14:06:52.735"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200512 14:06:57.736" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200512 14:06:52.735" endtime="20200512 14:06:57.736"></status>
+</kw>
+<status status="PASS" starttime="20200512 14:06:47.559" endtime="20200512 14:06:57.736"></status>
+</kw>
+<kw name="Lopeta">
+<kw name="Delete All Cookies" library="SeleniumLibrary">
+<doc>Deletes all cookies.</doc>
+<status status="PASS" starttime="20200512 14:06:57.737" endtime="20200512 14:06:57.812"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 14:06:57.812" endtime="20200512 14:07:00.076"></status>
+</kw>
+<status status="PASS" starttime="20200512 14:06:57.737" endtime="20200512 14:07:00.077"></status>
+</kw>
+<status status="PASS" starttime="20200512 14:06:13.683" endtime="20200512 14:07:00.077" critical="yes"></status>
+</test>
+<doc>Haku koulun kirjaston sivuilta</doc>
+<status status="PASS" starttime="20200512 14:06:13.432" endtime="20200512 14:07:00.080"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Sivusto">Sivusto</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
